@@ -11,7 +11,7 @@ const Header = styled.h1`
   color: white;
   text-align: center;
   @media (max-width: 347px) {
-    font-size: 25px; /* Change font size for screens smaller than 768px */
+    font-size: 25px; /* Change font size for screens smaller than 347px */
   }
 `;
 
@@ -21,7 +21,7 @@ const Label = styled.h3`
   margin: 0;
   padding: 0;
   @media (max-width: 347px) {
-    font-size: 13px; /* Change font size for screens smaller than 768px */
+    font-size: 13px; /* Change font size for screens smaller than 347px */
   }
 `;
 
@@ -41,7 +41,7 @@ const InputField = styled.input`
     background-color: #fff;
   }
   @media (max-width: 347px) {
-    font-size: 13px; /* Change font size for screens smaller than 768px */
+    font-size: 13px; /* Change font size for screens smaller than 347px */
     height:15px;
     padding:10px;
     margin:8px 0;
@@ -53,7 +53,7 @@ const CheckboxContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   @media (max-width: 347px) {
-    font-size: 10px; /* Change font size for screens smaller than 768px */
+    font-size: 10px; /* Change font size for screens smaller than 347px */
   }
 `;
 
@@ -62,7 +62,7 @@ const RememberMeLabel = styled.label`
   display: flex;
   align-items: center;
   @media (max-width: 347px) {
-    font-size: 10px; /* Change font size for screens smaller than 768px */
+    font-size: 10px; /* Change font size for screens smaller than 347px */
   }
 `;
 
@@ -85,7 +85,7 @@ const LeftAlignedCheckboxContainer = styled.div`
 const TermsLabel = styled(Label)`
   font-size: 14px; /* Adjust the font size here */
   @media (max-width: 347px) {
-    font-size: 10px; /* Change font size for screens smaller than 768px */
+    font-size: 10px; /* Change font size for screens smaller than 347px */
   }
 `;
 
@@ -116,7 +116,7 @@ const RegisterLink = styled.p`
   font-size: 16px;
   text-align: center;
   @media (max-width: 347px) {
-    font-size: 13px; /* Change font size for screens smaller than 768px */
+    font-size: 13px; /* Change font size for screens smaller than 347px */
   }
 `;
 
